@@ -1,6 +1,5 @@
 C:\Users\Ghost\source\repos\StringMatchingTools\StringMatchingTools\bin\Debug\StringMatchingTools.dll
 C:\Users\Ghost\source\repos\StringMatchingTools\StringMatchingTools\bin\Debug\StringMatchingTools.pdb
-C:\Users\Ghost\source\repos\StringMatchingTools\StringMatchingTools\obj\Debug\StringMatchingTools.csproj.AssemblyReference.cache
 C:\Users\Ghost\source\repos\StringMatchingTools\StringMatchingTools\obj\Debug\StringMatchingTools.csproj.CoreCompileInputs.cache
 C:\Users\Ghost\source\repos\StringMatchingTools\StringMatchingTools\obj\Debug\StringMatchingTools.dll
 C:\Users\Ghost\source\repos\StringMatchingTools\StringMatchingTools\obj\Debug\StringMatchingTools.pdb

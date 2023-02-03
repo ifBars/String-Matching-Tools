@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,22 +10,45 @@ namespace StringMatchingTools
     public static class SMT
     {
 
-        private static readonly string[] CommonWords = new[]
+        private static readonly HashSet<string> CommonWords = new HashSet<string>
         {
             "the", "and", "a", "to", "in", "that", "it", "with", "as", "for", "was", "on", "are", "be", "by", "at",
             "an", "this", "who", "which", "or", "but", "not", "is", "error", "can", "were", "been", "being", "one",
-            "can't", "do"
+            "can't", "do", "of", "if", "you", "they", "we", "all", "my", "your", "he", "she", "there", "some",
+            "also", "what", "just", "so", "only", "like", "well", "will", "much", "more", "most", "no", "yes", "our"
         };
 
-        public static string ExtractKeywords(this string input)
+        public static string ExtractKeywords(this string input, int amt, string path = null)
         {
-            var words = input.Split(' ')
-                .Where(w => !CommonWords.Contains(w.ToLowerInvariant()))
-                .Take(4);
 
+            List<string> preferredWords = new List<string>();
+            if (path != null)
+            {
+                // Read words from the text file and store them in a list
+                preferredWords = File.ReadAllLines(path).ToList();
+            }
+
+            // Split string into words
+            var words = input.Split(' ')
+                // Remove common words from string
+                .Where(w => !CommonWords.Contains(w.ToLowerInvariant()));
+
+                // If preferred words are provided, take them first
+            if (preferredWords.Count > 0)
+            {
+                words = words
+                    .Where(w => preferredWords.Contains(w.ToLowerInvariant()))
+                    .Concat(words.Where(w => !preferredWords.Contains(w.ToLowerInvariant())));
+            }
+
+            // Take the specified amount of keywords
+            words = words.Take(amt);
+
+            // Return Keywords
             return string.Join(" ", words);
         }
-            private static int Calculate(string source1, string source2) //O(n*m)
+
+            private static int Calculate(string source1, string source2)
             {
                 var source1Length = source1.Length;
                 var source2Length = source2.Length;
@@ -58,7 +82,7 @@ namespace StringMatchingTools
                 return matrix[source1Length, source2Length];
             }
 
-        public static string Preprocess(string input)
+        private static string Preprocess(string input)
         {
             // Convert to lowercase
             input = input.ToLowerInvariant();
@@ -86,6 +110,7 @@ namespace StringMatchingTools
 
             int distance = Math.Min(task1.Result, task2.Result);
 
+            // Return distance between strings
             return 1.0 - (double)distance / Math.Max(uInput.Length, uInput2.Length);
         }
 
