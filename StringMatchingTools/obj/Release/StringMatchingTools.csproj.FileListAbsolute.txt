@@ -1,0 +1,6 @@
+C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\bin\Release\StringMatchingTools.dll
+C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\bin\Release\StringMatchingTools.pdb
+C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\obj\Release\StringMatchingTools.csproj.AssemblyReference.cache
+C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\obj\Release\StringMatchingTools.csproj.CoreCompileInputs.cache
+C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\obj\Release\StringMatchingTools.dll
+C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\obj\Release\StringMatchingTools.pdb
