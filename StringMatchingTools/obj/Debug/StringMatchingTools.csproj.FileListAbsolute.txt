@@ -3,3 +3,9 @@ C:\Users\Ghost\source\repos\StringMatchingTools\StringMatchingTools\bin\Debug\St
 C:\Users\Ghost\source\repos\StringMatchingTools\StringMatchingTools\obj\Debug\StringMatchingTools.csproj.CoreCompileInputs.cache
 C:\Users\Ghost\source\repos\StringMatchingTools\StringMatchingTools\obj\Debug\StringMatchingTools.dll
 C:\Users\Ghost\source\repos\StringMatchingTools\StringMatchingTools\obj\Debug\StringMatchingTools.pdb
+C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\bin\Debug\StringMatchingTools.dll
+C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\bin\Debug\StringMatchingTools.pdb
+C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\obj\Debug\StringMatchingTools.csproj.AssemblyReference.cache
+C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\obj\Debug\StringMatchingTools.csproj.CoreCompileInputs.cache
+C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\obj\Debug\StringMatchingTools.dll
+C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\obj\Debug\StringMatchingTools.pdb

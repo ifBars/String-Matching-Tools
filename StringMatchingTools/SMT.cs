@@ -97,7 +97,7 @@ namespace StringMatchingTools
             return string.Join(" ", words);
         }
 
-        public static double Check(string uInput, string uInput2)
+        public static int Check(string uInput, string uInput2)
         {
             // Preprocess the inputs
             uInput = Preprocess(uInput);
@@ -111,7 +111,7 @@ namespace StringMatchingTools
             int distance = Math.Min(task1.Result, task2.Result);
 
             // Return distance between strings
-            return 1.0 - (double)distance / Math.Max(uInput.Length, uInput2.Length);
+            return (int)(1.0 - (int)distance / Math.Max(uInput.Length, uInput2.Length));
         }
 
     }
