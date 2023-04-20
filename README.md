@@ -11,8 +11,8 @@ To use SMT, follow these steps:
 3. Call the desired function and pass the input parameters.
 
     Example usage:
-         using StringMatchingTools;
 
+         using StringMatchingTools;
          string input = "The quick brown fox jumps over the lazy dog.";
          string preferredWordsFile = "preferredWords.txt";
          int numberOfKeywords = 5;
