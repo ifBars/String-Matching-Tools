@@ -4,3 +4,6 @@ C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\obj\Release\
 C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\obj\Release\StringMatchingTools.csproj.CoreCompileInputs.cache
 C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\obj\Release\StringMatchingTools.dll
 C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\obj\Release\StringMatchingTools.pdb
+C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\bin\Release\PCache.dll
+C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\bin\Release\PCache.pdb
+C:\Users\ghost\Desktop\C#\String-Matching-Tools\StringMatchingTools\obj\Release\StringMatchingTools.csproj.CopyComplete
